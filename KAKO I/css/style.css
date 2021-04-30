@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '62570체';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/62570체.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    position: relative;
+    height: 100%;
+    min-width: 300px;
+    margin: 0;
+    font: 400 15px/1.6 "Lato", sans-serif;
+    color: #555;
+}
+
+  /* Extra style for Bootstrap nav */
+nav {
+    letter-spacing: 1px;
+    /* box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.3); */
+}
+
+nav .container {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.navbar-brand {
+    font-family: '62570체';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav{
+    color: rgb(0, 0, 0);
+}
+
+.bgimg-1{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.bgimg-1{
+    background-image: url('../images/KAKAO\ I.png');
+    width: 100%;
+    height: 100vh;
+}
+
+.kakaoi1{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.kakaoi1 img{
+    width: 100%;
+}
+
+.kakaoi2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.kakaoi2 img{
+    width: 100%;
+}
+
+.lion-img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lion-img img {
+    width: 80%;
+    padding-top: 20%;
+}
+
+.lion-img2 img{
+    width: 70%;
+    padding-top: 5%;
+}
+
+.bgimg-3{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.text>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.text2>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 208, 0, 0.938);
+}
+
+.bgimg-5{
+    background-color: rgb(243, 238, 238);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.mobility{
+    width: 100%;
+}
+
+.mobility img{
+    width: 100%;
+}
+
+.bgimg-5-1>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.mobility2>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.mobility2{
+    padding-top: 20%;
+}
+
+.smart{
+    width: 100%;
+}
+
+.smart img{
+    width: 100%;
+}
+
+.smart2>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.smart2{
+    padding-top: 20%;
+}
+
+.display{
+    width: 100%;
+}
+
+.display img{
+    width: 100%;
+}
+
+.display2>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.display2{
+    padding-top: 20%;
+}
+
+.footer1>h1{
+    font-family: '62570체';
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.footer2>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(93, 93, 93);
+}
+
+.footer3>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 15px;
+    color: rgb(123, 123, 123);
+}
+
+.footer4>h1{
+    font-family: 'NanumSquareRound';
+    font-size: 15px;
+    color: rgb(123, 123, 123);
+}
